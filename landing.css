@@ -387,6 +387,19 @@ h2 {
   font: 600 13px "Manrope", sans-serif;
 }
 
+.site-footer p {
+  margin: 6px 0;
+}
+
+.site-footer a {
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(22px);
