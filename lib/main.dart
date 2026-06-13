@@ -5918,7 +5918,7 @@ final List<ContactProfile> _seedContacts = [
   ),
   const ContactProfile(
     id: 5,
-    name: '李亮',
+    name: '狸面请',
     group: RelationGroup.friend,
     note: '多年的朋友',
   ),
