@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>礼小记 | 人情往来不再靠记忆</title>
+  <meta name="description" content="礼小记是一款聚焦人情往来管理的移动应用，帮助用户记录礼金收支、维护关系档案、跟踪重要日程。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <a href="#top" class="brand">
+      <span class="brand-main">礼小记</span>
+      <span class="brand-sub">LiXiaoJi</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="切换菜单" aria-expanded="false">菜单</button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#story">为什么做</a>
+      <a href="#features">核心功能</a>
+      <a href="#showcase">演示截图</a>
+      <a href="#tech">技术亮点</a>
+      <a href="#cta">联系与试用</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">2026 创新应用赛参赛项目</p>
+        <h1>人情往来<br>不再靠记忆。</h1>
+        <p class="lead">礼小记帮助你系统管理礼金收支、关系档案和关键日程，把“怕忘、怕乱、怕算错”变成“随手记、看得清、跟得上”。</p>
+        <div class="hero-actions">
+          <a href="#showcase" class="btn btn-primary">看演示页面</a>
+          <a href="#cta" class="btn btn-ghost">获取体验包</a>
+        </div>
+        <div class="mini-stats">
+          <div>
+            <strong data-counter="1280">0</strong>
+            <span>演示环境记录数</span>
+          </div>
+          <div>
+            <strong data-counter="240">0</strong>
+            <span>关系档案条目</span>
+          </div>
+          <div>
+            <strong data-counter="93">0</strong>
+            <span>提醒命中率(%)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <figure class="phone-card tilt">
+          <img src="landing-assets/hero-home.png" alt="礼小记首页截图">
+        </figure>
+        <figure class="chip chip-a">
+          <figcaption>收支一目了然</figcaption>
+        </figure>
+        <figure class="chip chip-b">
+          <figcaption>关键节点准时提醒</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="story reveal" id="story">
+      <div class="section-head">
+        <p class="eyebrow">问题与方案</p>
+        <h2>从“临时翻聊天记录”到“结构化管理关系”</h2>
+      </div>
+      <div class="story-grid">
+        <article>
+          <h3>过去的痛点</h3>
+          <ul>
+            <li>礼金往来分散在聊天和备忘录里，回查成本高。</li>
+            <li>亲友关系复杂，金额和节点容易记错。</li>
+            <li>节日、婚宴、探望等事项缺乏统一提醒。</li>
+          </ul>
+        </article>
+        <article>
+          <h3>礼小记的解法</h3>
+          <ul>
+            <li>以“人”为中心，聚合历史收支记录。</li>
+            <li>自动汇总净往来，帮助决策更有依据。</li>
+            <li>结合日历提醒，把重要事项提前安排。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="features reveal" id="features">
+      <div class="section-head">
+        <p class="eyebrow">核心功能</p>
+        <h2>四个模块，覆盖完整的人情管理闭环</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>礼金台账</h3>
+          <p>支持收礼/回礼双向记录，关联金额、日期、场景、备注。</p>
+        </article>
+        <article class="feature-card">
+          <h3>关系档案</h3>
+          <p>按亲友、同学、同事等分组管理，快速定位目标联系人。</p>
+        </article>
+        <article class="feature-card">
+          <h3>数据看板</h3>
+          <p>按月/年/全部维度统计收入、支出与净值变化趋势。</p>
+        </article>
+        <article class="feature-card">
+          <h3>日程提醒</h3>
+          <p>记录重要节点，避免错过关键时间点和礼节场景。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="showcase reveal" id="showcase">
+      <div class="section-head">
+        <p class="eyebrow">演示截图</p>
+        <h2>真实页面展示</h2>
+      </div>
+      <div class="gallery">
+        <figure>
+          <img src="landing-assets/home-card.png" alt="首页卡片样式">
+          <figcaption>首页概览</figcaption>
+        </figure>
+        <figure>
+          <img src="landing-assets/results.png" alt="有数据时页面">
+          <figcaption>数据汇总</figcaption>
+        </figure>
+        <figure>
+          <img src="landing-assets/no-results.png" alt="无数据时页面">
+          <figcaption>空状态引导</figcaption>
+        </figure>
+        <figure>
+          <img src="landing-assets/relation-1.png" alt="关系管理页面">
+          <figcaption>关系分组</figcaption>
+        </figure>
+        <figure>
+          <img src="landing-assets/relation-2.png" alt="关系详情页面">
+          <figcaption>关系详情</figcaption>
+        </figure>
+        <figure>
+          <img src="landing-assets/relation-3.png" alt="关系统计页面">
+          <figcaption>往来统计</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="tech reveal" id="tech">
+      <div class="section-head">
+        <p class="eyebrow">技术与创新</p>
+        <h2>轻量离线优先，兼顾可扩展性</h2>
+      </div>
+      <div class="tech-grid">
+        <article>
+          <h3>技术栈</h3>
+          <p>Flutter + SharedPreferences，本地存储优先，启动快、部署轻。</p>
+        </article>
+        <article>
+          <h3>创新点</h3>
+          <p>把“记账思维”升级为“关系网络思维”，同一联系人维度可串联多次往来与重要节点。</p>
+        </article>
+        <article>
+          <h3>比赛价值</h3>
+          <p>聚焦高频真实场景，具备明确需求验证路径，可快速迭代到家庭/社区级服务产品。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta reveal" id="cta">
+      <div class="cta-panel">
+        <p class="eyebrow">Ready to Pitch</p>
+        <h2>礼小记，做你的人情管理副驾。</h2>
+        <p>如果你是评委、导师或潜在合作方，欢迎联系获取完整 Demo 与项目说明书。</p>
+        <div class="hero-actions">
+          <a href="mailto:your-email@example.com" class="btn btn-primary">联系项目团队</a>
+          <a href="https://github.com" class="btn btn-ghost" target="_blank" rel="noreferrer">查看 Git 仓库</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> 礼小记 LiXiaoJi · Competition Landing Page</p>
+  </footer>
+
+  <script src="landing.js"></script>
+</body>
+</html>
